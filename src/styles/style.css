@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(rgb(160, 206, 33), rgb(39, 113, 46));
+}
+.container {
+  margin: 100px 100px 100px 180px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+h1 {
+  color: rgb(12, 12, 14);
+  text-align: center;
+  margin-top: 30px;
+
+  font-weight: 900;
+}
+img {
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgb(22, 22, 22);
+}
+.img-div {
+  overflow: hidden;
+}
+
+img:hover {
+  transform: scale(1.3);
+}
+
+h3 {
+  margin: 25px;
+  text-align: center;
+}
